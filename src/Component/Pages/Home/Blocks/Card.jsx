@@ -15,8 +15,7 @@ export const Card = ({ item }) => {
         <ReactCardFlip isFlipped={isFlipped}>
             <CardComponent
                 hoverable
-                style={{ width: 240 }}
-                cover={<img alt="example" src={item.image} style={{ minHeight: '320px', width:'300px' }} />}
+                cover={<img alt="example" src={item.image} style={{ minHeight: '320px' }} />}
                 onClick={onClick}
             >
                 <Meta title={item.name} />
@@ -24,8 +23,7 @@ export const Card = ({ item }) => {
 
             <CardComponent
                 hoverable
-                style={{ width: 240 }}
-                cover={<img alt="example" src={item.image} style={{ minHeight: '320px', width:'300px' }} />}
+                cover={<img alt="example" src={item.image} style={{ minHeight: '320px' }} />}
                 onClick={onClick}
             >
                 <Meta title="back" />
